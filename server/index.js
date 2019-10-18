@@ -2,7 +2,7 @@ const express = require('express');
 const path = require('path');
 
 const app = express();
-const port = 3000;
+const port = process.argv.length >= 3 ? parseInt(process.argv[2], 10) : 3000;
 
 if (process.env.NODE_ENV !== 'production') {
   console.log('Setting up Webpack Middlewares');
