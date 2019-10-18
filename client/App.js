@@ -2,9 +2,13 @@ import { hot } from 'react-hot-loader/root';
 import React from 'react';
 import './App.css';
 
+import SdfConverter from "./components/SdfConverter";
+
 function App () {
   return (
-    <div>Hello</div>
+    <div className='App container-fluid'>
+      <SdfConverter />
+    </div>
   );
 }
 

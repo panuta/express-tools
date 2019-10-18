@@ -2,22 +2,21 @@
   "name": "express-tools",
   "description": "",
   "version": "0.1.0",
-  "private": true,
   "scripts": {
     "server": "cross-env NODE_ENV=development node server",
     "build:prod": "cross-env NODE_ENV=production webpack",
     "server:prod": "cross-env NODE_ENV=production node server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
+    "@blueprintjs/core": "^3.19.1",
     "@hot-loader/react-dom": "^16.9.0",
     "express": "^4.17.1",
+    "file-saver": "^2.0.2",
     "legacy-encoding": "^3.0.0",
     "react": "^16.10.1",
     "react-dom": "^16.10.1",
-    "react-scripts": "3.1.2"
+    "react-scripts": "^3.2.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.6.2",
@@ -31,7 +30,7 @@
     "jest-cli": "^24.9.0",
     "react-hot-loader": "^4.12.14",
     "semistandard": "^14.2.0",
-    "webpack": "^4.40.2",
+    "webpack": "^4.41.2",
     "webpack-cli": "^3.3.9",
     "webpack-dev-middleware": "^3.7.2",
     "webpack-hot-middleware": "^2.25.0"

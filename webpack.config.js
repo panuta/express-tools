@@ -28,7 +28,7 @@ module.exports = (env = {}) => {
     mode: (isDevelopment) ? 'development' : 'production',
     output: {
       path: OUTPUT_PATH,
-      filename: 'er-config-ui.bundle.js'
+      filename: 'express-tools.bundle.js'
     },
     module: {
       rules: [

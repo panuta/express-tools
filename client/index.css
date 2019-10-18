@@ -6,3 +6,14 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.navbar {
+  background-color: #f9c27a;
+  padding: 10px 15px;
+}
+
+.navbar .navbar-brand {
+  color: #333;
+  font-size: 1.1rem;
+  font-weight: 700;
+}

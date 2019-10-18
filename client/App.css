@@ -1,3 +1,33 @@
 .App {
 
 }
+
+.tool {
+}
+
+.tool .tool-header h2 {
+    font-size: 1.2rem;
+    margin-bottom: 0.1rem;
+}
+
+.tool .tool-header p {
+    color: #666;
+    font-size: 0.95rem;
+}
+
+.tool .tool-body {
+    margin-top: 15px;
+}
+
+.tool .tool-body label, .tool .tool-body button {
+    vertical-align: middle;
+}
+
+.tool .tool-body button {
+    margin-left: 10px;
+}
+
+.tool .tool-status {
+    color: #c33;
+    margin-top: 8px;
+}
