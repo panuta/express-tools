@@ -57,7 +57,7 @@ function SdfConverter () {
             }
           }
         }} />
-        <div id='sdf-converter-status' className='tool-status'><!-- ERROR MESSAGE --></div>
+        <div id='sdf-converter-status' className='tool-status' />
       </div>
     </div>
   );
